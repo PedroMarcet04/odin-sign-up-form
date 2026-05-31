@@ -65,3 +65,53 @@ body {
     font-family: 'Norse';
     font-size: 64px;
 }
+
+.main-content {
+    background-color: rgb(200, 200, 200);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.disclaimer-text,
+form>* {
+    padding: 0 64px;
+}
+.disclaimer-text {
+    margin: 0 0 64px;
+}
+.disclaimer-text>p {
+    margin: 32px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+form>fieldset {
+    border: 0;
+    padding-bottom: 16px;
+}
+legend,
+.text-fields {
+    background-color: white;
+}
+legend {
+    padding: 16px 64px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.text-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.form-row {
+    display: flex;
+    gap: 32px;
+}
+.form-item {
+    display: flex;
+    flex-direction: column;
+    width: 32ch;
+}
+
+
